@@ -1,0 +1,126 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+p {
+    color: black;
+}
+
+li {
+    color: limegreen;
+}
+
+span {
+    color: black;
+}
+
+.rond {
+    list-style-type: circle;
+}
+
+.h1 {
+    margin-left: 10%;
+}
+
+.h2 {
+    margin-left: 10%;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.souligner {
+    border-bottom: solid limegreen;
+}
+
+.principe {
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 27px;
+    padding-right: 50%;  
+}
+
+@media all and (min-width: 1650px) {
+    .principe {
+        padding-right: 65%;
+    }
+}
+
+@media all and (min-width: 1330px) and (max-width: 1650px) {
+    .principe {
+        padding-right: 60%
+    }
+}
+
+.marge {
+    margin-bottom: 30px;
+}
+
+.cadre {
+    text-align: center;
+    background-color: black;
+    color: springgreen;
+    margin: 10px -20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.symbole {
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    border: solid black;
+    border-radius: 100px;
+}
+
+.presentation {
+    background-color: #8A89C0;
+}
+
+.police {
+    font-family: monospace;
+    margin-left: 40px;
+}
+
+.footer {
+    margin-top: 0px;
+}
+
+.icone2 {
+    margin-right: 5%;
+    color: limegreen
+}
+
+#tout {
+    min-height: 100vh;
+}
+
+#prenom {
+    color: limegreen;
+}
+
+#titre {
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+#info {
+    background-color: springgreen;
+}
+
+#propos {
+    padding-right: 30px;
+    text-align: justify;
+    word-spacing: -4px
+}
+
+#icone {
+    text-align: center;
+}
