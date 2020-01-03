@@ -20,6 +20,11 @@ span {
     color: black;
 }
 
+.style {
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+}
+
 .rond {
     list-style-type: circle;
 }
@@ -55,7 +60,7 @@ span {
 
 @media all and (min-width: 1330px) and (max-width: 1650px) {
     .principe {
-        padding-right: 60%
+        padding-right: 60%;
     }
 }
 
@@ -95,7 +100,7 @@ span {
 
 .icone2 {
     margin-right: 5%;
-    color: limegreen
+    color: limegreen;
 }
 
 #tout {
@@ -118,7 +123,7 @@ span {
 #propos {
     padding-right: 30px;
     text-align: justify;
-    word-spacing: -4px
+    word-spacing: -4px;
 }
 
 #icone {
