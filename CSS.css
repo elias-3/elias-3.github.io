@@ -20,6 +20,10 @@ span {
     color: black;
 }
 
+.black {
+    color: black;
+}
+
 .style {
     text-decoration: underline;
     text-decoration-color: limegreen;
@@ -114,6 +118,7 @@ span {
 #titre {
     font-size: 1.5em;
     margin-bottom: 100px;
+    padding-left: 10%;
 }
 
 #info {
