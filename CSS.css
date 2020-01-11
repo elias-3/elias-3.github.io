@@ -33,11 +33,7 @@ span {
     list-style-type: circle;
 }
 
-.h1 {
-    margin-left: 10%;
-}
-
-.h2 {
+.debut {
     margin-left: 10%;
 }
 
@@ -66,6 +62,32 @@ span {
     .principe {
         padding-right: 60%;
     }
+}
+
+@media screen and (max-width: 990px) {
+    ul {
+        font-size: 30px;
+    }
+    
+    .cadre {
+        font-size: 34px;
+    }
+    
+    #propos {
+        font-size: 28px
+    }
+    
+    .principe {
+        font-size: 34px
+    }
+    #titre {
+        font-size: 36px;
+    }
+    
+    .debut {
+        font-size: 50px;
+    }
+    
 }
 
 .marge {
@@ -116,7 +138,6 @@ span {
 }
 
 #titre {
-    font-size: 1.5em;
     margin-bottom: 100px;
     padding-left: 10%;
 }
