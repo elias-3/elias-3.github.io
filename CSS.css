@@ -87,6 +87,15 @@ span {
     
 }
 
+@media all and (min-width: 990px) {
+    .size {
+        font-size: 17px;
+    }
+    .size2 {
+        font-size:19px;
+    }
+}
+
 .marge {
     margin-bottom: 30px;
 }
