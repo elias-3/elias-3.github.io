@@ -6,13 +6,11 @@
         
 		<link rel="stylesheet" href="CSS.css"/>
         
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         
         <script src="https://kit.fontawesome.com/c683259087.js" crossorigin="anonymous"></script>
+        
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         
 		<title>Mon CV</title>
 	</head>
@@ -21,86 +19,187 @@
         
         <div>
           <div class="row" id="tout">
-            <div class="col-lg-4" id="info">
+            <div class="col-xl-2 col-sm-3" id="info">
                 
                 <img src="image/Elias.jpg" alt="Moi"/>
 
-                <h2 class="title cadre">CONTACT</h2>
+                <h2 class="cadre">CONTACT</h2>
                 
-                    <ul class="police size list-unstyled">
-                        <li class="black">Adresse<address>Lieu dit La Pointe <br>81500 Fiac</address></li>
-                        <li class="black">Téléphone<br> 06 16 51 90 21</li>
-                        <li class="black">Email<br><a href="mailto:runallasia@gmail.com">runallasia@gmail.com</a></li>
+                    <ul class="margin2 weight list-unstyled">
+                        
+                        <li class="contact"><p class="grey line">Adresse</p><address>Toulouse, France</address></li>
+                        
+                        <li class="contact"><p class="grey line">Téléphone</p> 06 61 15 90 21</li>
+                        
+                        <li class="contact"><p class="grey line">Email</p><a href="mailto:eliasgmail.com">elias@gmail.com</a></li>
+                        
+                        <li class="contact"><p class="grey line">Site web</p><a>www.elias.com</a></li>
+                        
+                        <li class="contact"><p class="grey line">Skype</p>@elias_allasia</li>
+                        
                     </ul>
                 
-                <h2 class="title cadre">À PROPOS DE MOI</h2>
+                <h2 class="cadre">À PROPOS DE MOI</h2>
                     
-                    <p class="police size" id="propos">Sorti d'une Terminale S, j'ai toujours été attiré par les métiers du web.<br>J'avais déjà acquis des connaissances en programmation, ce qui m'a permis d'intégrer OpenClassrooms sur une formation Intégrateur web.<br>Je suis passionné, curieux et je souhaite proposer mes services aux entreprises désireuses d'avoir leur propre site web.</p>
+                    <p class="margin2" id="propos">Sorti d'une Terminale S, j'ai toujours été attiré par les métiers du web. J'avais déjà acquis des connaissances en programmation, ce qui m'a permis d'intégrer OpenClassrooms sur une formation Développeur Web Junior. Je suis passionné, curieux et je souhaite proposer mes services aux entreprises désireuses d'avoir leur propre site web.</p>
                 
-                <div class="footer">
-                <h2 class="title cadre" id="loisir">LOISIRS</h2>
+                <div id="Loisir">
+                <h2 class="cadre">LOISIRS</h2>
                 
                     <p id="icone">
-                        <i class="fas fa-gamepad symbole"></i>
-                        <i class="fas fa-music symbole"></i>
-                        <i class="fas fa-book-open book symbole"></i>
+                        <i class="fas fa-swimmer symbole"></i>
+                        <i class="fas fa-bicycle symbole"></i>
+                        <i class="fas fa-table-tennis symbole"></i>
                     </p>
+                    
                 </div>
               </div>    
             
-            <div class="col-lg-8 presentation">
+            <div class="col-xl-10 col-sm-9 presentation">
                 
-                    <h1 class="debut"><span id="prenom">Elias</span> Allasia</h1>
+                <h1 class="margin" id="nom"><span id="prenom">ELIAS</span><span class="light"> ALLASIA</span></h1>
                 
-                    <h2 id="titre" class="fin" ><span class="style">Développeur</span> web freelance</h2>
+                <h2 id="titre" class="grey" ><span class="style">Dével</span>oppeur web freelance</h2>
                 
-                <h3 class="marge souligner principe"><i class="fas fa-graduation-cap icone2"></i>FORMATION</h3>
+                <div class="container-fluid">
+                    
+                    <i class="fas fa-graduation-cap icone2"></i>
+                    <h3 class="principe">FORMATION</h3>
                 
-                <div class="container">
-                    <ul class="size2">
-                        <li class="rond">
-                            <div class="row">
-                                <p class="col-md-4 col-sm-6">2018/2019</p>
-                                <p class="col-md-8 col-sm-6 place">Formation Intégrateur web OpenClassrooms</p>
+                    <hr>
+                
+                    <div>
+                        <ul>
+                        
+                            <li class="rond">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <p class="line weight">2017 - 2018</p>
+                                            <p class="weight">Paris</p>
+                                        </div>
+                                        
+                                        <div class="col-md-8 col-sm-6 box">
+                                            <p class="subtitle grey colle">OPENCLASSROOMS</p>
+                                            <p class="grey down">Développeur Web Junior</p>
+                                            <p class="large">Les différents projets m'ont appris à : contruire un site e-commerce, construire une API sécurisée pour une application d'avis gastronomisques et de créer un réseau social d'entreprise.</p>
+                                            <p></p>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+                        
+                                <li class="spacing">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <p class="line weight">2016 - 2017</p>
+                                            <p class="weight">Paris</p>
+                                        </div>
+                                        <div class="col-md-8 col-sm-6 box">
+                                            <p class="colle subtitle">OPENCLASSROOMS</p>
+                                            <p class="grey down">Intégrateur Web</p>
+                                            <p class="large">Les différents projets m'ont appris à : transformer un CV en site web, dynamiser une page web avec des animations CSS et optimiser un site web existant.</p>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                
+                        <i class="fas fa-briefcase icone2"></i>
+                        <h3 class="principe">EXPÉRIENCE PROFESSIONELLE</h3>
+                
+                        <hr>
+                
+                        <div>
+                            <ul>
+                        
+                                <li class="rond">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <p class="line weight">Juillet 2019 - Poste actuel </p>
+                                            <p class="weight">Toulouse</p>
+                                        </div>
+                                        
+                                        <div class="col-md-8 col-sm-6 box">
+                                            <p class="subtitle grey colle">
+                                            AUTICONSULT</p>
+                                            <p class="grey down">Consultant junior</p>
+                                            <p class="large">Ma principale mission est de vérifier tous les paramètres d'analyse d'un logiciel et de détecter les bugs pour le valider.</p>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+                        
+                                <li class="spacing">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <p class="line weight">Janvier 2018 - Juin 2019</p>
+                                            <p class="weight">Toulouse</p>
+                                        </div>
+                                        
+                                        <div class="col-md-8 col-sm-6 box">
+                                            <p class="subtitle grey colle">AUTICONSULT</p>
+                                            <p class="grey down">Développeur Web</p>
+                                            <p class="large">J'ai été en mission chez des clients issus de secteurs très variés de l'économie (distribution, banque/assurance, industrie...).<br>J'ai participé à la conception et à l'optimisation de sites web.</p>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+                        
+                                <li class="spacing">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <p class="line weight">Mai 2018 - Août 2018</p>
+                                            <p class="weight">Toulouse</p>
+                                        </div>
+                                        
+                                        <div class="col-md-8 col-sm-6 box">
+                                            <p class="subtitle grey colle">AUTICONSULT</p>
+                                            <p class="grey down">Stagiaire Développeur Web</p>
+                                            <p class="large">Ma mission a été de participer au developpement de nouveaux outils et de nouvelles fonctionnalités sur l’existant.</p>
+                                        </div>
+                                    
+                                    </div>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                
+                        <i class="fas fa-pen icone2"></i>
+                        <h3 class="principe">RECOMMANDATIONS</h3>
+                
+                        <hr>
+                    
+                        <div class="row">
+                            
+                            <div class="col-md-4 pen">
+                                
+                                <p class="grey weight manda">HÉLÈNE BURELLO</p>
+                                <p class="grey weight reco">Gérant, Au Sabot d'Hélène</p>
+                                <p class="grey weight reco">Téléphone : 06 04 87 63 48</p>
+                                <p class="grey reco">Email : <a href="mailto:burello@gmail.com">burello@gmail.com</a></p>
+                                
                             </div>
-                        </li>
-                        <li>
-                            <div class="row">
-                                <p class="col-md-4 col-sm-6">2017/2018</p>
-                                <p class="col-md-8 col-sm-6">Niveau Terminale S</p>
+                            
+                            <div class="col-md-5 dation">
+                                
+                                <p class="grey weight manda">HARRI SIVEIRA</p>
+                                <p class="grey weight reco">Directeur, Le Miel et les Abeilles</p>
+                                <p class="grey weight reco">Téléphone : 06 87 47 24 98</p>
+                                <p class="grey reco">Email : <a href="mailto:siveira@hotmail.com">siveira@hotmail.com</a></p>
+                                
                             </div>
-                        </li>
-                        <li>
-                            <div class="row">
-                                <p class="col-md-4 col-sm-6">2015</p>
-                                <p class="col-md-8 col-sm-6">Brevet des Collèges</p>
-                            </div>
-                        </li>
-                    </ul>
+                            
+                        </div>
+                    </div>    
                 </div>
-                
-                <h3 class="marge souligner principe"><i class="fas fa-briefcase icone2"></i>COMPÉTENCES</h3>
-                
-                <div class="container">
-                    <ul class="size2">
-                        <li class="rond">
-                            <div class="row">
-                                <p class="col-md-5">HTML5 et CSS3</p>
-                            </div>
-                        </li>
-                        <li class="rond">
-                            <div class="row">
-                                <p class="col-md-3">JavaScript</p>
-                            </div>
-                        </li>
-                        <li class="rond">
-                            <div class="row">
-                                <p class="col-md-3">Bootstrap</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
             </div>
         </div>
 	</body>
