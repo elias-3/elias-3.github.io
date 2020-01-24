@@ -69,6 +69,10 @@ p {
     margin-bottom: 1px;
 }
 
+.foo {
+    padding-bottom: 50px;
+}
+
 .grey {
     color: #404040;
 }
