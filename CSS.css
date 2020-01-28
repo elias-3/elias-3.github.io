@@ -1,17 +1,10 @@
-@font-face {
-    font-family: "Nimbus Sans ME Demi";
-    src: url("Nimbus Sans ME Demi.ttf");
-    src: url("Nimbus-Sans-ME-Demi.woff");
-}
-
-
-body {
-    font-family:;
+a {
+    color: #404040;
 }
 
 hr {
     margin-left: 1%;
-    margin-right: 30%
+    margin-right: 3;
 }
 
 img {
@@ -26,10 +19,6 @@ img {
     margin-top: 20%;
 }
 
-a {
-    color: #404040;
-}
-
 li {
     color: #FECA07;
     vertical-align: middle;
@@ -39,8 +28,9 @@ p {
     color: black;
 }
 
+
+
 .box {
-    margin-left: -2%;
     margin-bottom: 15px;
 }
 
@@ -69,8 +59,23 @@ p {
     margin-bottom: 1px;
 }
 
+.exp {
+    margin-right: -11%;
+}
+
 .foo {
     padding-bottom: 50px;
+}
+
+.foote {
+    text-align: center;
+    background-color: #404040;
+    color: #FECA07;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .grey {
@@ -84,7 +89,6 @@ p {
     font-size: 32px;
     margin-top: 7px;
     float: left;
-    display: list-item;
 }
 
 .light {
@@ -109,6 +113,10 @@ p {
     color: #404040;
 }
 
+.propos {
+    margin-bottom: 100%;
+}
+
 .pen {
     margin-left: 1%;
 }
@@ -128,7 +136,7 @@ p {
 .rond {
     list-style-image: url(image/dot-circle-regular.svg);
     padding-left: 13px;
-    margin-left: -3px
+    margin-left: -3px;
 }
 
 .spacing {
@@ -142,9 +150,18 @@ p {
 .symbole {
     margin-left: 10px;
     font-size: 33px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px 8px 8px 8px;
     border: solid black;
     border-radius: 100px;
+    color: #404040;
+}
+
+.symbole2 {
+    margin-left: 10px;
+    font-size: 33px;
+    padding: 8px 5px 8px 5px;
+    border: solid black;
+    border-radius: 50px;
     color: #404040;
 }
 
@@ -157,17 +174,142 @@ p {
 
 .weight {
     font-weight: 500;
-    
-    
-    
 }
 
 
-@media all and (max-width: 1630px) {
-    .dation {
-        margin-left: 100px;
+
+@media all and (min-width: 1200px) and (max-width: 1299px) {
+   
+    .exp {
+        margin-right: -4%;
     } 
 } 
+
+@media all and (min-width: 1300px) and (max-width: 1399px) {
+   
+    .exp {
+        margin-right: -6%;
+    } 
+}
+
+@media all and (min-width: 1400px) and (max-width: 1499px) {
+   
+    .exp {
+        margin-right: -7.8%;
+    } 
+}
+
+@media all and (min-width: 1500px) and (max-width: 1599px) {
+    
+    .exp {
+        margin-right: -9%;
+    } 
+}
+
+@media all and (min-width: 1600px) and (max-width: 1750px) {
+    
+    .exp {
+        margin-right: -9.8%;
+    } 
+}
+
+@media all and (max-width: 1199px) {
+    
+   img {
+        margin-top: 1%;
+        width: 200px;
+        height: 210px;
+    }
+    
+    
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+    .icone2 {
+        font-size: 1.5em;
+    }
+    
+    .large {
+        padding-right: 0;
+    }
+    
+    .nom {
+        font-size: 3em;
+    }
+    
+    .principe {
+        font-size: 1.5em;
+    }
+    
+    .propos {
+        margin-bottom: 30%;
+    }
+    
+    .subtitle {
+        font-size: 1.3em;
+    }
+    
+    .tout {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-device-width: 500px) {
+    
+   img {
+        margin-top: 1%;
+        width: 200px;
+        height: 210px;
+    }
+    
+    
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+    .icone2 {
+        font-size: 1.6em;
+    }
+    
+    .nom {
+        font-size: 3.2em;
+    }
+    
+    .principe {
+        font-size: 1.6em;
+    }
+    
+    .propos {
+        margin-bottom: 30%;
+    }
+    
+    .subtitle {
+        font-size: 1.4em;
+    }
+    
+    .symbole {
+        font-size: 1.6em;
+    }
+    
+    .symbole2 {
+        font-size: 1.6em;
+    }
+    
+    .tout {
+        font-size: 2.1em;
+    }
+}
 
 
 
@@ -181,15 +323,15 @@ p {
 
 #Loisir {
     position: absolute;
-    width: 100%; height: -100%;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
     margin-bottom: 20px;
 }
 
 #nom {
     margin-top: 7%;
     margin-left: 2%;
-    
 }
 
 #prenom {
@@ -198,7 +340,6 @@ p {
 }
 
 #propos {
-    margin-bottom: 100%;
     padding-right: 28px;
     text-align: justify;
     word-spacing: -2px;
@@ -212,5 +353,5 @@ p {
     margin-bottom: 100px;
     margin-left: 2%;
     font-size: 1.6em;
-    font-weight: 500
+    font-weight: 500;
 }
