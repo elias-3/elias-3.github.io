@@ -260,7 +260,7 @@ p {
     }
 }
 
-@media all and (max-device-width: 500px) {
+@media all and (max-device-width: 600px) {
     
    img {
         margin-top: 1%;
@@ -304,10 +304,11 @@ p {
     
     .symbole2 {
         font-size: 1.6em;
+        padding: 11px 5px 11px 5px;
     }
     
     .tout {
-        font-size: 2.1em;
+        font-size: 2.3em;
     }
 }
 
