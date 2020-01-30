@@ -10,7 +10,7 @@ hr {
 img {
     width: 180px;
     height: 190px;
-    border-radius: 100px;
+    border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -152,7 +152,7 @@ p {
     font-size: 33px;
     padding: 8px 8px 8px 8px;
     border: solid black;
-    border-radius: 100px;
+    border-radius: 100%;
     color: #404040;
 }
 
@@ -161,7 +161,7 @@ p {
     font-size: 33px;
     padding: 9px 5px 9px 5px;
     border: solid black;
-    border-radius: 50px;
+    border-radius: 100%;
     color: #404040;
 }
 
@@ -272,8 +272,8 @@ p {
     
    img {
         margin-top: 1%;
-        width: 200px;
-        height: 210px;
+        width: 250px;
+        height: 260px;
     }
     
     
