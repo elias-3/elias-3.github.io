@@ -159,7 +159,7 @@ p {
 .symbole2 {
     margin-left: 10px;
     font-size: 33px;
-    padding: 8px 5px 8px 5px;
+    padding: 9px 5px 9px 5px;
     border: solid black;
     border-radius: 50px;
     color: #404040;
@@ -227,6 +227,10 @@ p {
         font-size: 1.5em;
     }
     
+    .dation {
+        margin-left: 1%
+    }
+    
     .foote {
         font-size: 1.5em;
     }
@@ -241,6 +245,10 @@ p {
     
     .nom {
         font-size: 3em;
+    }
+    
+    .pen {
+        margin-bottom: 2%;
     }
     
     .principe {
@@ -274,6 +282,10 @@ p {
         font-size: 1.5em;
     }
     
+    .contact {
+        margin-bottom: 4%;
+    }
+    
     .foote {
         font-size: 1.5em;
     }
@@ -287,11 +299,11 @@ p {
     }
     
     .principe {
-        font-size: 1.6em;
+        font-size: ;
     }
     
     .propos {
-        margin-bottom: 30%;
+        margin-bottom: 40%;
     }
     
     .subtitle {
@@ -299,16 +311,16 @@ p {
     }
     
     .symbole {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     
     .symbole2 {
-        font-size: 1.6em;
-        padding: 11px 5px 11px 5px;
+        font-size: 1.5em;
+        padding: 15px 5px 11px 5px;
     }
     
     .tout {
-        font-size: 2.3em;
+        font-size: 2.8em;
     }
 }
 
