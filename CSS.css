@@ -213,7 +213,7 @@ p {
     } 
 }
 
-@media all and (max-width: 1199px) {
+@media all and (max-width: 990px) {
     
    img {
         margin-top: 1%;
