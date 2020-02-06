@@ -182,7 +182,6 @@ img {
 
 hr {
     margin-left: 1%;
-    margin-right: 3;
 }
 
 /* fin titres */
@@ -260,32 +259,32 @@ hr {
 
 /* ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
 
-@media all and (min-width: 1200px) and (max-width: 1299px) {
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
    
     .exp {
         margin-right: -4%;
     } 
 } 
 
-@media all and (min-width: 1300px) and (max-width: 1399px) {
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
     .exp {
         margin-right: -6%;
     } 
 }
 
-@media all and (min-width: 1400px) and (max-width: 1499px) {
+@media screen and (min-width: 1400px) and (max-width: 1499px) {
     .exp {
         margin-right: -7.8%;
     } 
 }
 
-@media all and (min-width: 1500px) and (max-width: 1599px) {
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
     .exp {
         margin-right: -9%;
     } 
 }
 
-@media all and (min-width: 1600px) and (max-width: 1750px) {
+@media screen and (min-width: 1600px) and (max-width: 1750px) {
     .exp {
         margin-right: -9.8%;
     } 
@@ -294,9 +293,9 @@ hr {
 /* fin de l'ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
 
 
-/* début responsive petites tablettes et smartphones */
+/* début règles petites tablettes */
 
-@media all and (max-width: 991px) {
+@media screen and (min-width: 600px) and (max-width: 991px) {
 
 /* générale */    
 
@@ -408,12 +407,12 @@ hr {
     
 }
 
-/* fin responsive petites tablettes et smartphones */
+/* fin règles petites tablettes */
 
 
-/* début responsive smartphones */
+/* début règles petits smartphones */
 
-@media all and (max-device-width: 600px) {
+@media screen and (max-width: 600px) {
       
     
 /* générale */    
@@ -498,11 +497,7 @@ hr {
     
 /* titres */
     
-    .principe {
-        font-size: ;
-    }
-    
-    .icone2 {
+   .icone2 {
         font-size: 1.6em;
     }
     
@@ -522,12 +517,12 @@ hr {
     
 }
 
-/* fin responsive smartphones */
+/* fin règles petits smartphones */
 
 
 /* à supprimer en version grandes tablettes et ordinateurs */
 
-@media all and (min-width: 991px)  {
+@media screen and (min-width: 992px)  {
     #tabl {
         visibility: hidden;
         height: 0;
