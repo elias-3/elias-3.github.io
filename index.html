@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
         <meta name="description" content="mon cv">
         
-		<link rel="stylesheet" href="CSS.css"/>
+		<link rel="stylesheet" href="style.css"/>
         
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         
@@ -19,11 +19,19 @@
         
         
           <div class="row tout" id="tout">
-            <div class="col-xl-2 col-lg-3 col-md-12" id="info">
+            <div class="col-xl-2 col-lg-3 col-md-12" id="info"> <!-- début de la partie gauche -->
                 
-                <img src="image/Elias.jpg" alt="Moi"/>
+                <div id="tabl"> <!-- début de la partie qui apparaît sur les petites tablettes et les smartphones -->
+                    
+                    <h1 class="nom2"><span id="prenom2">ELIAS</span><span class="light"> ALLASIA</span></h1>
+                
+                    <h2 id="titre2" class="grey"><span class="style">Dével</span>oppeur web freelance</h2>
+                
+                </div> <!-- fin de la partie qui apparaît sur les petites tablettes et les smartphones -->
+                
+                <img src="image/elias.jpg" alt="Elias Allasia"/>
 
-                <h2 class="cadre">CONTACT</h2>
+                <h2 class="cadre">CONTACT</h2> <!-- début de la partie contact -->
                 
                     <ul class="margin2 weight list-unstyled">
                         
@@ -37,34 +45,35 @@
                         
                         <li class="contact"><p class="grey line">Skype</p>@elias_allasia</li>
                         
-                    </ul>
+                    </ul> <!-- fin de la partie contact -->
                 
-                <h2 class="cadre">À PROPOS DE MOI</h2>
+                <h2 class="cadre">À PROPOS DE MOI</h2> <!-- début de la partie à propos de moi -->
                     
                     <p class="margin2 propos" id="propos">Sorti d'une Terminale S, j'ai toujours été attiré par les métiers du web. J'avais déjà acquis des connaissances en programmation, ce qui m'a permis d'intégrer OpenClassrooms sur une formation Développeur Web Junior. Je suis passionné, curieux et je souhaite proposer mes services aux entreprises désireuses d'avoir leur propre site web.</p>
+                <!-- fin de la partie à propos de moi -->
                 
-                <div id="Loisir">
-                <h2 class="foote">LOISIRS</h2>
-                
+                <div id="Loisirs"> <!-- début de la partie loisirs -->
+                    
+                    <h2 class="foote">LOISIRS</h2>
                     <p id="icone">
                         <i class="fas fa-swimmer symbole2"></i>
                         <i class="fas fa-bicycle symbole2"></i>
                         <i class="fas fa-table-tennis symbole"></i>
                     </p>
-                    
-                </div>
-              </div>    
-            
-            <div class="col-xl-10 col-lg-9 col-sm-12 presentation">
+                </div> <!-- fin de la partie loisirs -->
                 
-                <h1 class="margin nom" id="nom"><span id="prenom">ELIAS</span><span class="light"> ALLASIA</span></h1>
+              </div> <!-- fin de la partie gauche -->
+            
+            <div class="col-xl-10 col-lg-9 col-sm-12 presentation"> <!-- début de la partie droite -->
+                
+                <h1 class="nom" id="nom"><span id="prenom">ELIAS</span><span class="light"> ALLASIA</span></h1>
                 
                 <h2 id="titre" class="grey" ><span class="style">Dével</span>oppeur web freelance</h2>
                 
                 <div class="container-fluid">
                     
                     <i class="fas fa-graduation-cap icone2"></i>
-                    <h3 class="principe">FORMATION</h3>
+                    <h3 class="principe">FORMATION</h3> <!-- début de la partie formation -->
                 
                     <hr>
                 
@@ -83,7 +92,6 @@
                                             <p class="subtitle grey colle">OPENCLASSROOMS</p>
                                             <p class="grey down">Développeur Web Junior</p>
                                             <p class="large">Les différents projets m'ont appris à : construire un site e-commerce, construire une API sécurisée pour une application d'avis gastronomiques et de créer un réseau social d'entreprise.</p>
-                                            
                                         </div>
                                     
                                     </div>
@@ -96,21 +104,21 @@
                                             <p class="line weight">2016 - 2017</p>
                                             <p class="weight">Paris</p>
                                         </div>
+                                        
                                         <div class="col-xl-8 box">
                                             <p class="colle subtitle">OPENCLASSROOMS</p>
                                             <p class="grey down">Intégrateur Web</p>
                                             <p class="large">Les différents projets m'ont appris à : transformer un CV en site web, dynamiser une page web avec des animations CSS et optimiser un site web existant.</p>
-                                            
                                         </div>
                                     
                                     </div>
                                 </li>
                         
                             </ul>
-                        </div>
-                
+                        </div> 
+                        <!-- fin de la partie formation -->
                         <i class="fas fa-briefcase icone2"></i>
-                        <h3 class="principe">EXPÉRIENCE PROFESSIONELLE</h3>
+                        <h3 class="principe">EXPÉRIENCE PROFESSIONELLE</h3> <!-- début de la partie expérience professionelle" -->
                 
                         <hr>
                 
@@ -171,15 +179,15 @@
                         
                             </ul>
                         </div>
-                
+                        <!-- fin de la partie expérience professionelle -->
                         <i class="fas fa-pen icone2"></i>
-                        <h3 class="principe">RECOMMANDATIONS</h3>
+                        <h3 class="principe">RECOMMANDATIONS</h3> <!-- début de la partie recommandations -->
                 
                         <hr>
                     
                         <div class="row foo">
                             
-                            <div class="col-xl-5 pen">
+                            <div class="col-lg-5 pen">
                                 
                                 <p class="grey weight manda">HÉLÈNE BURELLO</p>
                                 <p class="grey weight reco">Gérant, Au Sabot d'Hélène</p>
@@ -188,7 +196,7 @@
                                 
                             </div>
                             
-                            <div class="col-xl-5 dation">
+                            <div class="col-lg-5 dation">
                                 
                                 <p class="grey weight manda">HARRI SIVEIRA</p>
                                 <p class="grey weight reco">Directeur, Le Miel et les Abeilles</p>
@@ -197,9 +205,9 @@
                                 
                             </div>
                             
-                        </div>
+                        </div> <!-- fin de la partie recommandations -->
                     </div>    
-                </div>
+                </div> <!-- fin de la partie droite -->
             </div>
         
 	</body>

@@ -1,0 +1,537 @@
+a {
+    color: #404040;
+}
+
+li {
+    color: #FECA07;
+    vertical-align: middle;
+}
+
+p {
+    color: black;
+}
+
+.grey {
+    color: #404040;
+}
+
+.weight {
+    font-weight: 500;
+}
+
+
+/* début de la partie gauche */
+
+
+#info {
+    background-color: #FECA07;    
+}
+
+img {
+    width: 180px;
+    height: 190px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 4px solid rgba(40, 40, 40, 0.1);
+    margin-top: 20%;
+}
+
+.margin2 {
+    margin-left: 20px;
+    color: #404040;
+}
+
+/* début titres */
+
+.cadre {
+    text-align: center;
+    background-color: #404040;
+    color: #FECA07;
+    margin: 10px -15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.foote {
+    text-align: center;
+    background-color: #404040;
+    color: #FECA07;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* fin titres */
+
+/* début de la partie contact */
+
+.contact {
+    margin-bottom: 16px;
+    color: #404040;   
+}
+
+/* fin de la partie contact */
+
+/* début de la partie à propos de moi */
+
+#propos {
+    padding-right: 28px;
+    text-align: justify;
+    word-spacing: -2px;
+}
+
+/* fin de la partie à propos de moi */
+
+/* début de la partie loisirs */
+
+#Loisirs {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin-bottom: 20px;
+}
+
+#icone {
+    text-align: center;
+}
+
+.symbole {
+    margin-left: 10px;
+    font-size: 33px;
+    padding: 8px 8px 8px 8px;
+    border: solid black;
+    border-radius: 100%;
+    color: #404040;
+}
+
+.symbole2 {
+    margin-left: 10px;
+    font-size: 33px;
+    padding: 9px 5px 9px 5px;
+    border: solid black;
+    border-radius: 100%;
+    color: #404040;
+}
+
+/* fin de la partie loisires */
+
+
+/* fin de la pratie gauche */
+
+
+
+/* début de la partie droite */
+
+
+.presentaion {
+    background-color: white;
+}
+
+/* début nom, prénom et poste */
+
+#nom {
+    margin-top: 7%;
+    margin-left: 2%;
+}
+
+#prenom {
+    color: #FECA07;
+    font-weight: 400;
+}
+
+#titre {
+    margin-bottom: 100px;
+    margin-left: 2%;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.style {
+    text-decoration: underline #FECA07;
+}
+
+/* fin nom, prénom et poste */
+
+/* début titres */
+
+.icone2 {
+    margin-left: 1%;
+    margin-right: 2.5%;
+    color: #FECA07;
+    font-size: 32px;
+    margin-top: 7px;
+    float: left;
+}
+
+.principe {
+    font-size: 27px;
+}
+
+hr {
+    margin-left: 1%;
+    margin-right: 3;
+}
+
+/* fin titres */
+
+/* début de la partie formation et expérience professionelle */
+
+.box {
+    margin-bottom: 15px;
+}
+
+.colle {
+    margin-bottom: 5px;
+}
+
+.down {
+    margin-bottom: 1px;
+}
+
+.exp {
+    margin-right: -11%;
+}
+
+.line {
+    line-height: 10px;
+    margin-bottom: 1px;
+}
+
+.large {
+    padding-right: 50%; 
+}
+
+.rond {
+    list-style-image: url(image/dot-circle-regular.svg);
+    padding-left: 13px;
+    margin-left: -3px;
+}
+
+.spacing {
+    padding-left: 10px;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 500;
+    color: #404040;
+    margin-bottom: 1px;
+}
+
+/* fin de la partie formation et expérience professionelle */
+
+/* début de la partie recommandations */
+
+.manda {
+    margin-bottom: 7px;
+}
+
+.pen {
+    margin-left: 1%;
+}
+
+.reco {
+    margin-bottom: 3px;
+}
+
+.foo {
+    padding-bottom: 50px;
+}
+
+/* fin de la partie recommandations */
+
+
+/* fin de la partie droite */
+
+
+
+/* ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
+
+@media all and (min-width: 1200px) and (max-width: 1299px) {
+   
+    .exp {
+        margin-right: -4%;
+    } 
+} 
+
+@media all and (min-width: 1300px) and (max-width: 1399px) {
+    .exp {
+        margin-right: -6%;
+    } 
+}
+
+@media all and (min-width: 1400px) and (max-width: 1499px) {
+    .exp {
+        margin-right: -7.8%;
+    } 
+}
+
+@media all and (min-width: 1500px) and (max-width: 1599px) {
+    .exp {
+        margin-right: -9%;
+    } 
+}
+
+@media all and (min-width: 1600px) and (max-width: 1750px) {
+    .exp {
+        margin-right: -9.8%;
+    } 
+}
+
+/* fin de l'ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
+
+
+/* début responsive petites tablettes et smartphones */
+
+@media all and (max-width: 991px) {
+
+/* générale */    
+
+    .tout {
+        font-size: 1.5em;
+    }
+    
+/*----*/
+    
+/* partie gauche */
+    
+
+/* nom, prénom, poste et photo */
+    
+   img {
+        margin-top: 1%;
+        width: 200px;
+        height: 210px;
+    }
+    
+    #tabl {
+    text-align: center;
+    }
+    
+/* fin nom, prénom, poste et photo */
+
+/* titres */
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie à propos de moi */
+    
+    .propos {
+        margin-bottom: 30%;
+    }
+    
+/*---*/
+    
+    
+/* fin de la partie gauche */
+    
+    
+/* début de la partie droite */
+    
+    
+/* titres */
+    
+    .principe {
+        font-size: 1.5em;
+    }
+    
+    .icone2 {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie formation et expérience profesionelle */
+    
+    .large {
+        padding-right: 0;
+    }
+    
+    .subtitle {
+        font-size: 1.3em;
+    }
+    
+/*---*/
+    
+/* partie recommandations */
+    
+    .dation {
+        margin-left: 1%
+    }
+    
+    .pen {
+        margin-bottom: 2%;
+    }
+    
+/*---*/
+    
+
+/* fin de la partie droite */
+    
+    
+/* à supprimer */
+
+    #titre {
+        visibility: hidden;
+        height: 0px;
+    }
+    
+    #nom {
+        visibility: hidden;
+        height: 0px;
+        float: left;
+    }
+    
+/*---*/
+    
+    
+}
+
+/* fin responsive petites tablettes et smartphones */
+
+
+/* début responsive smartphones */
+
+@media all and (max-device-width: 600px) {
+      
+    
+/* générale */    
+
+    .tout {
+        font-size: 2.8em;
+    }
+    
+/*----*/
+    
+/* partie gauche */
+    
+
+/* nom, prénom, poste et photo */
+    
+   img {
+        margin-top: 1%;
+        width: 250px;
+        height: 260px;
+    }
+    
+    #tabl {
+        text-align: center;
+    }
+    
+    #titre2 {
+        font-size: 1.4em;
+    }
+    
+    .nom2 {
+        font-size: 3.2em;
+    }
+    
+/*---*/
+
+/* titres */
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie contact */
+    
+    .contact {
+        margin-bottom: 4%;
+    }
+    
+/*---*/
+    
+/* partie à propos de moi */
+    
+    .propos {
+        margin-bottom: 40%;
+    }
+    
+/*---*/
+    
+/* partie loisirs */
+    
+    .symbole {
+        font-size: 1.5em;
+    }
+    
+    .symbole2 {
+        font-size: 1.5em;
+        padding: 15px 5px 11px 5px;
+    }
+    
+/*---*/
+    
+/* fin de la partie gauche */
+    
+    
+/* début de la partie droite */
+    
+    
+/* titres */
+    
+    .principe {
+        font-size: ;
+    }
+    
+    .icone2 {
+        font-size: 1.6em;
+    }
+    
+/*---*/
+    
+/* partie formation et expérience profesionelle */
+    
+    .subtitle {
+        font-size: 1.4em;
+    }
+    
+/*---*/
+    
+
+/* fin de la partie droite */
+    
+    
+}
+
+/* fin responsive smartphones */
+
+
+/* à supprimer en version grandes tablettes et ordinateurs */
+
+@media all and (min-width: 991px)  {
+    #tabl {
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+/*-----*/
