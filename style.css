@@ -125,7 +125,7 @@ img {
 /* fin de la partie loisires */
 
 
-/* fin de la pratie gauche */
+/* fin de la partie gauche */
 
 
 
@@ -257,7 +257,7 @@ hr {
 
 
 
-/* ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
+/* ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
 
 @media screen and (min-width: 1200px) and (max-width: 1299px) {
    
@@ -290,7 +290,7 @@ hr {
     } 
 }
 
-/* fin de l'ajustement de l'espacement sur les différentes tailles d'écran, entre 2 blocs, des parties formation et expérience professionelle */
+/* fin de l'ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
 
 
 /* début règles petites tablettes */
