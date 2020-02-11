@@ -296,7 +296,7 @@ hr {
 
 @media screen and (min-width: 2200px){
     .exp {
-        margin-right: -22%
+        margin-right: -22%;
     }
 }
 
@@ -323,7 +323,7 @@ hr {
         bottom: 10px;
         min-width: 105%;
         max-width: 105%;
-        padding-top: 2%
+        padding-top: 2%;
     }
     
 /* nom, prénom, poste et photo */
@@ -337,7 +337,7 @@ hr {
     
     #nom {
         font-size: 3.5em;
-        margin-top: 5%
+        margin-top: 5%;
     }
     
 /* fin nom, prénom, poste et photo */
@@ -366,7 +366,7 @@ hr {
     
     #Loisirs {
         position: relative;
-        padding-bottom: 1%
+        padding-bottom: 1%;
     }
     
 /*---*/
@@ -465,7 +465,7 @@ hr {
     
     .contact {
         margin-bottom: 4%;
-        line-height: 170%
+        line-height: 170%;
     }
     
 /*---*/
