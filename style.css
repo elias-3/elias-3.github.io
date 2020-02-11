@@ -309,7 +309,7 @@ hr {
 
 /* début règles petites tablettes */
 
-@media screen and (min-width: 650px) and (max-width: 991px) {
+@media screen and (min-width: 60px) and (max-width: 991px) {
 
 /* générale */    
 
@@ -422,7 +422,7 @@ hr {
 
 /* début règles petits smartphones */
 
-@media screen and (max-device-width: 650px) {
+@media screen and (max-width: 600px) {
       
     
 /* générale */    
