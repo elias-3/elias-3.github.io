@@ -255,6 +255,10 @@ hr {
     padding-bottom: 50px;
 }
 
+.dation {
+    margin-left: 
+}
+
 /* fin de la partie recommandations */
 
 
@@ -418,7 +422,7 @@ hr {
 
 /* début règles petits smartphones */
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-width: 600px) {
       
     
 /* générale */    
@@ -462,6 +466,7 @@ hr {
     
     .contact {
         margin-bottom: 4%;
+        line-height: 170%
     }
     
 /*---*/
@@ -512,7 +517,5 @@ hr {
 
 /* fin de la partie droite */
     
-    
-}
 
 /* fin règles petits smartphones */
