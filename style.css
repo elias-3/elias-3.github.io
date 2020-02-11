@@ -32,7 +32,8 @@ p {
     width: 30%;
     position: relative;
     right: 15px;
-    
+    min-width: 400px;
+    max-width: 400px;
 }
 
 img {
@@ -217,10 +218,6 @@ hr {
     margin-bottom: 1px;
 }
 
-.large {
-    padding-right: 50%; 
-}
-
 .rond {
     list-style-image: url(image/dot-circle-regular.svg);
     padding-left: 13px;
@@ -263,28 +260,15 @@ hr {
 
 /* fin de la partie droite */
 
-
-
 /* ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
 
 @media screen and (min-width: 1200px) and (max-width: 1299px) {
    
     .exp {
-        margin-right: -7%;
+        margin-right: -8%;
     } 
 } 
 
-@media screen and (min-width: 1300px) and (max-width: 1399px) {
-    .exp {
-        margin-right: ;
-    } 
-}
-
-@media screen and (min-width: 1400px) and (max-width: 1499px) {
-    .exp {
-        margin-right: %;
-    } 
-}
 
 @media screen and (min-width: 1500px) and (max-width: 1599px) {
     .exp {
@@ -296,6 +280,24 @@ hr {
     .exp {
         margin-right: -15%;
     } 
+    
+}@media screen and (min-width: 1750px) and (max-width: 1850px) {
+    .exp {
+        margin-right: -17%;
+    } 
+ 
+}
+
+@media screen and (min-width: 1850px){
+    .exp {
+        margin-right: -20%;
+    } 
+}
+
+@media screen and (min-width: 2200px){
+    .exp {
+        margin-right: -22%
+    }
 }
 
 /* fin de l'ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
@@ -312,26 +314,30 @@ hr {
         display: block;
     }
     
-    #info {
-        width: 100%;
-    }
-    
-    .presentation {
-        flex: 0;
-        width: 100%;
-    }
-    
 /*----*/
     
 /* partie gauche */
     
-
+#info {
+        width: 105%;
+        bottom: 10px;
+        min-width: 105%;
+        max-width: 105%;
+        padding-top: 2%
+    }
+    
 /* nom, prénom, poste et photo */
+    
     
    img {
         margin-top: 1%;
         width: 200px;
         height: 210px;
+    }
+    
+    #nom {
+        font-size: 3.5em;
+        margin-top: 5%
     }
     
 /* fin nom, prénom, poste et photo */
@@ -358,6 +364,7 @@ hr {
     
     #Loisirs {
         position: relative;
+        padding-bottom: 1%
     }
     
 /* fin de la partie gauche */
@@ -380,10 +387,6 @@ hr {
     
 /* partie formation et expérience profesionelle */
     
-    .large {
-        padding-right: 0;
-    }
-    
     .subtitle {
         font-size: 1.3em;
     }
@@ -393,7 +396,7 @@ hr {
 /* partie recommandations */
     
     .dation {
-        margin-left: 1%
+        margin-left: 1%;
     }
     
     .pen {
@@ -415,7 +418,7 @@ hr {
 
 /* début règles petits smartphones */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 600px) {
       
     
 /* générale */    
@@ -435,6 +438,10 @@ hr {
         margin-top: 1%;
         width: 250px;
         height: 260px;
+    }
+    
+    #nom {
+        font-size: 2.9em;
     }
     
 /*---*/
