@@ -1,99 +1,3 @@
-@media all and (max-width: 600px) {
-      
-    
-/* générale */    
-
-    .tout {
-        font-size: 2.8em;
-    }
-    
-/*----*/
-    
-/* partie gauche */
-    
-
-/* nom, prénom, poste et photo */
-    
-   img {
-        width: 250px;
-        height: 260px;
-    }
-    
-    #nom {
-        font-size: 2.9em;
-    }
-    
-/*---*/
-
-/* titres */
-    
-    .cadre {
-        font-size: 1.5em;
-    }
-    
-    .foote {
-        font-size: 1.5em;
-    }
-    
-/*---*/
-    
-/* partie contact */
-    
-    .contact {
-        margin-bottom: 4%;
-        line-height: 170%;
-    }
-    
-/*---*/
-    
-/* partie à propos de moi */
-    
-    .propos {
-        margin-bottom: 40%;
-    }
-    
-/*---*/
-    
-/* partie loisirs */
-    
-    .symbole {
-        font-size: 1.5em;
-    }
-    
-    .symbole2 {
-        font-size: 1.5em;
-        padding: 15px 5px 11px 5px;
-    }
-    
-/*---*/
-    
-/* fin de la partie gauche */
-    
-    
-/* début de la partie droite */
-    
-    
-/* titres */
-    
-   .icone2 {
-        font-size: 1.6em;
-    }
-    
-/*---*/
-    
-/* partie formation et expérience profesionelle */
-    
-    .subtitle {
-        font-size: 1.4em;
-    }
-    
-/*---*/
-
-/* fin de la partie droite */
-    
-}
-/* fin règles petits smartphones */
-
 a {
     color: #404040;
 }
@@ -405,7 +309,7 @@ hr {
 
 /* début règles petites tablettes */
 
-@media all and (min-width: 600px) and (max-width: 991px) {
+@media screen and (min-width: 600px) and (max-width: 991px) {
 
 /* générale */    
 
@@ -522,3 +426,98 @@ hr {
 
 /* début règles petits smartphones */
 
+@media screen and (max-width: 600px) {
+      
+    
+/* générale */    
+
+    .tout {
+        font-size: 2.8em;
+    }
+    
+/*----*/
+    
+/* partie gauche */
+    
+
+/* nom, prénom, poste et photo */
+    
+   img {
+        width: 250px;
+        height: 260px;
+    }
+    
+    #nom {
+        font-size: 2.9em;
+    }
+    
+/*---*/
+
+/* titres */
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie contact */
+    
+    .contact {
+        margin-bottom: 4%;
+        line-height: 170%;
+    }
+    
+/*---*/
+    
+/* partie à propos de moi */
+    
+    .propos {
+        margin-bottom: 40%;
+    }
+    
+/*---*/
+    
+/* partie loisirs */
+    
+    .symbole {
+        font-size: 1.5em;
+    }
+    
+    .symbole2 {
+        font-size: 1.5em;
+        padding: 15px 5px 11px 5px;
+    }
+    
+/*---*/
+    
+/* fin de la partie gauche */
+    
+    
+/* début de la partie droite */
+    
+    
+/* titres */
+    
+   .icone2 {
+        font-size: 1.6em;
+    }
+    
+/*---*/
+    
+/* partie formation et expérience profesionelle */
+    
+    .subtitle {
+        font-size: 1.4em;
+    }
+    
+/*---*/
+
+/* fin de la partie droite */
+    
+}
+/* fin règles petits smartphones */
