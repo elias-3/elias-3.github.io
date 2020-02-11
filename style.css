@@ -267,34 +267,38 @@ hr {
     .exp {
         margin-right: -8%;
     } 
-} 
-
+}
 
 @media screen and (min-width: 1500px) and (max-width: 1599px) {
+    
     .exp {
         margin-right: -14%;
     } 
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1750px) {
+    
     .exp {
         margin-right: -15%;
     } 
+}
+
+@media screen and (min-width: 1750px) and (max-width: 1850px) {
     
-}@media screen and (min-width: 1750px) and (max-width: 1850px) {
     .exp {
         margin-right: -17%;
     } 
- 
 }
 
-@media screen and (min-width: 1850px){
+@media screen and (min-width: 1850px) {
+    
     .exp {
         margin-right: -20%;
     } 
 }
 
-@media screen and (min-width: 2200px){
+@media screen and (min-width: 2200px) {
+    
     .exp {
         margin-right: -22%;
     }
@@ -509,7 +513,7 @@ hr {
     
     .subtitle {
         font-size: 1.4em;
-}
+    }
     
 /*---*/
 
