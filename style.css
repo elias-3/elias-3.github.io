@@ -37,8 +37,8 @@ p {
 }
 
 img {
-    width: 180px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     display: block;
     margin-left: auto;
@@ -336,7 +336,7 @@ hr {
    img {
         margin-top: 5%;
         width: 200px;
-        height: 210px;
+        height: 200px;
     }
     
     #nom {
