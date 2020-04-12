@@ -525,6 +525,10 @@ hr {
         font-size: 1.4em;
     }
     
+    .rond {
+        list-style: none;
+    }
+    
 /*---*/
 
 /* fin de la partie droite */
