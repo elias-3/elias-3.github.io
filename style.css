@@ -329,12 +329,13 @@ hr {
     
 /* partie gauche */
     
-#info {
+    #info {
         width: 105%;
         bottom: 10px;
         min-width: 105%;
         max-width: 105%;
         padding-top: 2%;
+        padding-right: 2%;
     }
     
 /* nom, prénom, poste et photo */
@@ -357,10 +358,12 @@ hr {
     
     .cadre {
         font-size: 1.5em;
+        width: 102%
     }
     
     .foote {
         font-size: 1.5em;
+        width: 102%
     }
     
 /*---*/
@@ -433,7 +436,7 @@ hr {
 
 /* début règles petits smartphones */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-device-width: 700px) {
     
     
 /* générale */    
