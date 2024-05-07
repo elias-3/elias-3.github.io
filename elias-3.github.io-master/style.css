@@ -1,0 +1,551 @@
+a {
+    color: #404040;
+}
+
+li {
+    color: #FECA07;
+    vertical-align: middle;
+}
+
+p {
+    color: black;
+}
+
+.grey {
+    color: #404040;
+}
+
+
+.weight {
+    font-weight: 500;
+}
+
+.tout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* début de la partie gauche */
+
+
+#info {
+    background-color: #FECA07;
+    width: 30%;
+    position: relative;
+    right: 15px;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+img {
+    height: 200px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 4px solid rgba(40, 40, 40, 0.1);
+    margin-top: 20%;
+}
+
+.margin2 {
+    margin-left: 20px;
+    color: #404040;
+}
+
+/* début titres */
+
+.cadre {
+    text-align: center;
+    background-color: #404040;
+    color: #FECA07;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.foote {
+    text-align: center;
+    background-color: #404040;
+    color: #FECA07;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* fin titres */
+
+/* début de la partie contact */
+
+.contact {
+    margin-bottom: 16px;
+    color: #404040;   
+}
+
+/* fin de la partie contact */
+
+/* début de la partie à propos de moi */
+
+#propos {
+    padding-right: 28px;
+    text-align: justify;
+    word-spacing: -2px;
+}
+
+/* fin de la partie à propos de moi */
+
+/* début de la partie loisirs */
+
+#Loisirs {
+    position: relative;
+}
+
+#icone {
+    text-align: center;
+}
+
+.symbole {
+    margin-left: 10px;
+    font-size: 33px;
+    padding: 8px 8px 8px 8px;
+    border: solid black;
+    border-radius: 100%;
+    color: #404040;
+}
+
+.symbole2 {
+    margin-left: 10px;
+    font-size: 33px;
+    padding: 9px 5px 9px 5px;
+    border: solid black;
+    border-radius: 100%;
+    color: #404040;
+}
+
+/* fin de la partie loisires */
+
+
+/* fin de la partie gauche */
+
+
+
+/* début de la partie droite */
+
+
+.presentation {
+    background-color: white;
+    width: 100%;
+    flex: 1;
+}
+
+/* début nom, prénom et poste */
+
+#nom {
+    margin-top: 80px;
+    margin-left: 2%;
+}
+
+#prenom {
+    color: #FECA07;
+    font-weight: 400;
+}
+
+#titre {
+    margin-bottom: 100px;
+    margin-left: 2%;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.black {
+    color: black;
+    list-style: "-  ";
+}
+.black2 {
+    color: black;
+    list-style: "- ";
+    padding-left: 13px;
+    margin-left: 10px;
+}
+.light {
+    font-weight: 100;
+}
+
+.style {
+    text-decoration: underline #FECA07;
+}
+
+/* fin nom, prénom et poste */
+
+/* début titres */
+
+.icone2 {
+    margin-left: 1%;
+    margin-right: 2.5%;
+    color: #FECA07;
+    font-size: 32px;
+    margin-top: 7px;
+    float: left;
+}
+
+.principe {
+    font-size: 27px;
+}
+
+hr {
+    width: 100%;
+}
+
+/* fin titres */
+
+/* début de la partie formation et expérience professionelle */
+
+.box {
+    margin-bottom: 30px;
+    margin-top: -5px;
+    padding-left: 5px
+}
+
+.colle {
+    margin-bottom: 5px;
+}
+
+.down {
+    margin-bottom: 1px;
+}
+
+.exp {
+    margin-right: -11%;
+}
+
+.line {
+    margin-bottom: -5px;
+}
+
+.rond {
+    list-style-image: url(image/dot-circle-regular.svg);
+    padding-left: 13px;
+    margin-left: -3px;
+}
+
+.spacing {
+    padding-left: 10px;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 500;
+    color: #404040;
+}
+
+/* fin de la partie formation et expérience professionelle */
+
+/* début de la partie recommandations */
+
+.manda {
+    margin-bottom: 7px;
+}
+
+.pen {
+    margin-left: 1%;
+}
+
+.reco {
+    margin-bottom: 3px;
+}
+
+.foo {
+    padding-bottom: 50px;
+}
+
+/* fin de la partie recommandations */
+
+
+/* fin de la partie droite */
+
+/* ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+   
+    .exp {
+        margin-right: -8%;
+    } 
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
+    
+    .exp {
+        margin-right: -14%;
+    } 
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1750px) {
+    
+    .exp {
+        margin-right: -15%;
+    } 
+}
+
+@media screen and (min-width: 1750px) and (max-width: 1850px) {
+    
+    .exp {
+        margin-right: -17%;
+    } 
+}
+
+@media screen and (min-width: 1850px) {
+    
+    .exp {
+        margin-right: -20%;
+    } 
+}
+
+@media screen and (min-width: 2200px) {
+    
+    .exp {
+        margin-right: -22%;
+    }
+}
+
+/* fin de l'ajustement de l'espacement sur les différentes tailles d'écrans, entre 2 blocs, des parties formation et expérience professionelle */
+
+
+/* début règles petites tablettes */
+
+@media screen and (min-width: 700px) and (max-width: 991px) {
+
+/* générale */    
+
+    .tout {
+        font-size: 1.5em;
+        display: block;
+    }
+    
+/*----*/
+    
+/* partie gauche */
+    
+    #info {
+        width: 105%;
+        bottom: 10px;
+        min-width: 105%;
+        max-width: 105%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    
+/* nom, prénom, poste et photo */
+    
+    
+   img {
+        margin-top: 5%;
+        width: 200px;
+        height: 200px;
+    }
+    
+    #nom {
+        font-size: 3.5em;
+        margin-top: 5%;
+    }
+    
+/* fin nom, prénom, poste et photo */
+
+/* titres */
+    
+    .cadre {
+        font-size: 1.5em;
+        width: 102%
+    }
+    
+    .foote {
+        font-size: 1.5em;
+        width: 102%
+    }
+    
+/*---*/
+    
+/* partie à propos de moi */
+    
+    .propos {
+        margin-bottom: 30%;
+    }
+    
+/*---*/
+
+/* partie loisirs */
+    
+    #Loisirs {
+        position: relative;
+        padding-bottom: 1%;
+    }
+    
+/*---*/
+    
+/* fin de la partie gauche */
+    
+    
+/* début de la partie droite */
+    
+    
+/* titres */
+    
+    .principe {
+        font-size: 1.5em;
+    }
+    
+    .icone2 {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie formation et expérience profesionelle */
+    
+    .subtitle {
+        font-size: 1.3em;
+    }
+    
+/*---*/
+    
+/* partie recommandations */
+    
+    .dation {
+        margin-left: 1%;
+    }
+    
+    .pen {
+        margin-bottom: 2%;
+    }
+    
+/*---*/
+    
+
+/* fin de la partie droite */
+    
+/*---*/
+    
+
+}
+
+/* fin règles petites tablettes */
+
+
+/* début règles petits smartphones */
+
+@media screen and (max-device-width: 700px) {
+    
+    
+/* générale */    
+
+    .tout {
+        font-size: 2.8em;
+    }
+    
+/*----*/
+    
+/* partie gauche */
+    
+
+/* nom, prénom, poste et photo */
+    
+   img {
+        width: 250px;
+        height: 260px;
+    }
+    
+    #nom {
+        font-size: 2.9em;
+    }
+    
+/*---*/
+
+/* titres */
+    
+    .cadre {
+        font-size: 1.5em;
+    }
+    
+    .foote {
+        font-size: 1.5em;
+    }
+    
+/*---*/
+    
+/* partie contact */
+    
+    .contact {
+        margin-bottom: 4%;
+        line-height: 170%;
+    }
+    
+/*---*/
+    
+/* partie à propos de moi */
+    
+    .propos {
+        margin-bottom: 40%;
+    }
+    
+/*---*/
+    
+/* partie loisirs */
+    
+    .symbole {
+        font-size: 1.5em;
+    }
+    
+    .symbole2 {
+        font-size: 1.5em;
+        padding: 15px 5px 11px 5px;
+    }
+    
+/*---*/
+    
+/* fin de la partie gauche */
+    
+    
+/* début de la partie droite */
+    
+    
+/* titres */
+    
+   .icone2 {
+        font-size: 1.6em;
+    }
+    
+/*---*/
+    
+/* partie formation et expérience profesionelle */
+    
+    .subtitle {
+        font-size: 1.4em;
+    }
+    
+    .rond {
+        list-style: none;
+    }
+    
+/*---*/
+
+/* fin de la partie droite */
+    
+}
+/* fin règles petits smartphones */
+.titre {
+    margin-bottom: 100px;
+    margin-left: 2%;
+    font-size: 1.2em;
+    font-weight: 400
+}
+
+.bas {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center
+}
