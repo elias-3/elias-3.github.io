@@ -155,7 +155,7 @@ img {
 }
 
 #titre {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-left: 2%;
     font-size: 1.6em;
     font-weight: 500;
@@ -257,9 +257,6 @@ hr {
     margin-bottom: 3px;
 }
 
-.foo {
-    padding-bottom: 50px;
-}
 
 /* fin de la partie recommandations */
 
